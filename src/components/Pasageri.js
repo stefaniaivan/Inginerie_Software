@@ -36,15 +36,12 @@ export default function Pasageri() {
   const [copii, setCopii] = React.useState(0);
   const [bebelusi, setBebelusi] = React.useState(0);
   const handleAdultiChange = (event, val) => {
-    // Verificați dacă valoarea este mai mică decât 0 și, în caz afirmativ, setați-o la 0
     setAdulti(val < 0 ? 0 : val);
   };
   const handleCopiiChange = (event, val) => {
-    // Verificați dacă valoarea este mai mică decât 0 și, în caz afirmativ, setați-o la 0
     setCopii(val < 0 ? 0 : val);
   };
   const handleBebChange = (event, val) => {
-    // Verificați dacă valoarea este mai mică decât 0 și, în caz afirmativ, setați-o la 0
     setBebelusi(val < 0 ? 0 : val);
   };
 
